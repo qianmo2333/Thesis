@@ -1,0 +1,15 @@
+\chapter{Conclusion}
+
+The experiments demonstrate that the SMC algorithm exhibits high robustness in maintaining collision-free trajectories, even in challenging environments. In the static obstacle scenario, the wheeled robot achieved a Path Efficiency of 0.842, with a total computation time of 7.7 seconds, showcasing the algorithm's efficiency in static obstacle environments. In the dynamic obstacle scenario, the total computation time increased to 20 seconds, with unavoidable trajectory oscillations caused by frequent path switching. Nevertheless, the algorithm successfully avoided moving obstacles and reached the target. These results validate the adaptability of the SMC algorithm in handling both static and dynamic obstacles.
+
+\section*{Performance Summary}
+
+The experiments demonstrated that the SMC algorithm achieves high robustness in maintaining collision-free trajectories even in challenging environments. In the static obstacle scenario, the robot completed the navigation task with a success rate of 100\% and a total computation time of \(T_{\text{total}} = 7.7 \, \text{seconds}\), showcasing the algorithm’s efficiency in simpler environments. Similarly, in the dynamic obstacle scenario, the algorithm effectively avoided moving obstacles and successfully reached the target, albeit with a longer computation time of \(T_{\text{total}} = 20.0 \, \text{seconds}\) due to frequent path adjustments. These results confirm the adaptability of the SMC algorithm in handling both static and dynamic obstacles.
+
+\section*{Real-time Feasibility}
+
+The computation time analysis underscores the real-time applicability of the SMC algorithm. While the algorithm's response time remained within acceptable limits for dynamic scenarios, its reliance on frequent trajectory recalculations under dynamic conditions increased computational overhead. Optimizing this aspect could further enhance the algorithm’s practical deployment in real-world applications.
+
+\section*{Challenges and Limitations}
+
+In conclusion, this study highlights the effectiveness of the SMC algorithm for collision-free navigation in both static and dynamic environments. By addressing the identified limitations, the SMC algorithm can be further refined to achieve greater efficiency and reliability, contributing to the advancement of autonomous robotic navigation systems in complex real-world scenarios.

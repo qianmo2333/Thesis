@@ -1,0 +1,79 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage{amsmath}  % 数学符号支持
+\usepackage{amssymb}  % 额外数学符号支持
+\usepackage{graphicx} % 图形支持
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{biblatex}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {image/}} %image为文件夹名，可以在左侧自己创建文件夹
+\addbibresource{reference.bib}
+\begin{document}
+
+% 封面页
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    
+    {\LARGE \textbf{Collision-free Navigation of Wheeled Mobile Robots in Complex Environment}}
+    
+    \vspace{1.5cm}
+    
+    \textbf{Author Name: Zichen Zhang}\\
+    \textbf{Student ID: z5490421}\\
+    \vspace{0.5cm}
+    
+    Thesis submitted as a requirement for the degree\\
+    Bachelor of Engineering (Electrical Engineering)\\
+    
+    \vfill
+    
+    School of Electrical Engineering and Telecommunications\\
+    University of New South Wales\\
+    
+    \vspace{0.8cm}
+    
+    \textbf{Supervisor: Andrey V. Savkin}
+    
+    \vspace{1.5cm}
+    
+    Submission Date: November 14, 2024
+    
+\end{titlepage}
+
+% 生成目录
+\tableofcontents
+\newpage
+
+% 后续章节可以在此添加
+\include{Abstract}
+
+\include{Background}
+
+% 包含 Methodology 文件
+\include{Methodology}
+
+\include{Experiment}
+\include{Discussion}
+\include{Conclusion}
+
+\cite{Liu2012}
+\cite{Hoy2015}
+\cite{Matveev2012}
+\cite{Fiorini1998}
+\cite{Mayne2014}
+\cite{Falcone2016}
+\cite{Edwards2000}
+\cite{Sarkar2009}
+\cite{Fiorini1998}
+\cite{Bareiss2015}
+\cite{Kim2000}
+\cite{Ge2000}
+\cite{Lumelsky1991}
+\cite{Turpin2014}
+\cite{Dunbar2006}
+
+\printbibliography % 打印参考文章列表
+\end{document}
+
